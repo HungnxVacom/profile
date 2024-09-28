@@ -22,7 +22,7 @@ body{
 }
 .wrapper{
   position: relative;
-  width: 350px;
+  width: 450px;
   padding: 30px;
   border-radius: 10px;
   display: flex;
@@ -55,8 +55,8 @@ body{
   right: 15px;
 }
 .wrapper .img-area{
-  height: 150px;
-  width: 150px;
+  height: 220px;
+  width: 220px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -74,7 +74,7 @@ body{
   object-fit: cover;
 }
 .wrapper .name{
-  font-size: 23px;
+  font-size: 35px;
   font-weight: 500;
   color: #31344b;
   margin: 10px 0 5px 0;
@@ -82,15 +82,15 @@ body{
 .wrapper .about{
   color: #44476a;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
 }
 .wrapper .social-icons{
-  margin: 15px 0 25px 0;
+  margin: 30px 0 30px 0;
 }
 .social-icons a{
   position: relative;
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   margin: 0 5px;
   display: inline-flex;
   text-decoration: none;
@@ -120,7 +120,7 @@ body{
   text-align: center;
   width: 100%;
   height: 100%;
-  line-height: 40px;
+  line-height: 50px;
 }
 .social-icons a.fb i{
   color: #4267B2;
@@ -166,6 +166,8 @@ body{
   justify-content: space-between;
 }
 .social-share .row{
+  margin-left: auto;
+  margin-right: auto;
   color: #31344b;
   font-size: 17px;
   cursor: pointer;
