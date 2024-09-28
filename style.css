@@ -23,7 +23,8 @@ body{
 .wrapper{
   position: relative;
   width: 450px;
-  padding: 30px;
+  height: 650px;
+  padding: 50px;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -138,6 +139,7 @@ body{
   display: flex;
   width: 100%;
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 .buttons button{
   position: relative;
@@ -146,7 +148,7 @@ body{
   outline: none;
   padding: 12px 0;
   color: #31344b;
-  font-size: 17px;
+  font-size: 22px;
   font-weight: 400;
   border-radius: 5px;
   cursor: pointer;
@@ -169,7 +171,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   color: #31344b;
-  font-size: 17px;
+  font-size: 20px;
   cursor: pointer;
   position: relative;
 }
